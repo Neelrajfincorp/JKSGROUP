@@ -5241,11 +5241,19 @@
         background-clip: text;
         -webkit-text-fill-color: transparent
     }
-    .bg-btn {
+    /* .bg-btn {
         background: #ffbd84;
         background: -moz-linear-gradient(left, #ffbd84 0, #ff1f8e 100%);
         background: -webkit-linear-gradient(left, #ffbd84 0, #ff1f8e 100%);
         background: linear-gradient(to right, #ffbd84 0, #ff1f8e 100%);
+        -webkit-box-shadow: 0 10px 15px 0 rgba(175,0,87,.2);
+        box-shadow: 0 10px 15px 0 rgba(175,0,87,.2)
+    } */
+    .bg-btn {
+        background: #ffbd84;
+        background: -moz-linear-gradient(left, #32b9e8 0, #00C8AC 100%);
+        background: -webkit-linear-gradient(left, #32b9e8 0, #00C8AC 100%);
+        background: linear-gradient(to right, #32b9e8 0, #00C8AC 100%);
         -webkit-box-shadow: 0 10px 15px 0 rgba(175,0,87,.2);
         box-shadow: 0 10px 15px 0 rgba(175,0,87,.2)
     }
