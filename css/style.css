@@ -35,7 +35,10 @@
         line-height: 1;
         font-size: 17px;
         outline: 0;
-        overflow-x: hidden
+        overflow-x: hidden ;
+        /* changes   */
+        /* text-align: center; */
+        padding-top:10em;
     }
     article, aside, details, figcaption, figure, footer, header, nav, section, summary {
         display: block
@@ -890,15 +893,16 @@
         box-shadow: 0 10px 15px 0 rgba(233,30,99,.15)
     }
     .header-heading h1 {
-        font-size: 60px;
+        font-size: 58px;
         line-height: 72px;
         font-weight: 700;
-        margin-bottom: 30px
+        /* margin-bottom: 30px */
     }
     .header-heading p {
         font-size: 20px;
         line-height: 30px;
-        margin-bottom: 35px
+        margin-bottom: 35px;
+        margin-top: 35px;
     }
     .about-agency .common-heading h2 {
         margin-bottom: 20px
@@ -1762,7 +1766,7 @@
         border-radius: 100px;
         color: #fff;
         opacity: .4;
-        background: url(../images/icons/up-arrow.svg) #00baff;
+        background: url(../images/icons/up-arrow.png) #00baff;
         background-repeat: no-repeat;
         background-size: 15px;
         background-position: center center;
@@ -3232,6 +3236,12 @@
     .header-heading span {
         color: #e60072
     }
+
+    .header-heading{
+    position: relative;
+    bottom: 150px;
+    }
+
     .lead-hero {
         background: url(../images/hero/bg-gradient.jpg);
         background-position: center center;
@@ -3641,6 +3651,11 @@
         font-size: 80px;
         line-height: 90px;
         font-weight: 900
+    }
+    .header-heading h1
+    {
+        /* text-shadow: 3px 3px 5px rgba(13, 34, 54, 23); */
+        
     }
     .-content-sec .triangle-play {
         border-left: 25px solid #fff
@@ -6820,3 +6835,11 @@
         font-style: italic;
     }
 
+    .animationn [data-type="logistics and Supply services."]{
+        color: black;
+    }
+
+    lottie-player{
+    position: relative;
+    bottom: 170px;
+    }
