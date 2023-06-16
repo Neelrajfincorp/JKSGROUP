@@ -6840,6 +6840,7 @@
     }
 
     lottie-player{
-    position: relative;
-    bottom: 170px;
+        width: 100% !important;
+        position: relative;
+        bottom: 170px;
     }
